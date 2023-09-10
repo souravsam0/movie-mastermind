@@ -26,8 +26,8 @@ def recommend(movie):
 
 st.header('MovieMastermind : Your Film Advisor')
 #df = pd.read_pickle("file.pkl")
-movies = pd.read_pickle("movie_list.pkl")
-similarity = pd.read_pickle("similarity.pkl")
+movies = pandas.read_pickle("movie_list.pkl")
+similarity = pandas.read_pickle("similarity.pkl")
 
 movie_list = movies['title'].values
 selected_movie = st.selectbox(
